@@ -1,0 +1,24 @@
+{
+  "name": "javascript_dom_eventos_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Parodi Lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.54.0"
+  }
+}

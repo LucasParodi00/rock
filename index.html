@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor contenidoHeader">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="navegacionPrincipal">
+                <a href="#lineUp">Line Up</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenidoVideo">
+                <h2>Rock & EDM Festival</h2>
+                <p>Agosto 2022, Bs.As. Argentina</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobreFestival">
+        <div class="imagen">
+            <img src="build/img/imagen_vocalista.webp" alt="imagen vocalista">
+        </div>
+        <div class="contenidoFestival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Agosto 2022, Bs.As. Argentina</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quo sed voluptatibus ex. Temporibus aliquam cum porro dicta quae voluptates odit, eos dolorum vitae explicabo expedita in! Voluptate, quaerat dolorem.</p>
+        </div>
+    </section>
+
+    <section class="lineUp"  id="lineUp">
+        <h3>Line Up</h3>
+        <p class="dia"> Viernes 21</p>
+        <div class="escenariosContenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombreEscenario"> Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                </ul>
+            </div> <!--Fin escenario-->
+            <div class="escenario edm bg-verde">
+                <p class="nombreEscenario"> Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    
+                </ul>
+            </div> <!--Fin escenario-->
+
+        </div> <!-- fin escenario contenedor-->
+
+
+        <p class="dia"> Sabado 22</p>
+        <div class="escenariosContenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombreEscenario"> Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+
+                </ul>
+            </div> <!--Fin escenario-->
+            <div class="escenario edm bg-amarillo">
+                <p class="nombreEscenario"> Escenario EDM</p>
+                <ul class="calendario">
+
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+                    <li>
+                        24.00 | <span> Metallica </span>
+                    </li>
+
+                </ul>
+            </div> <!--Fin escenario-->
+
+        </div> <!-- fin escenario contenedor-->
+    </section>
+
+    <section class="galeria contenedor" id="galeria">
+        <h3>Galeria</h3>
+
+        <u class="galeriaImagenes"></u>
+    </section>
+
+    <section class="boletos bg-verde" id="boletos">
+        <div class="contenedor contenedorBoleto">
+
+            <div class="basico pase">
+                <p class="nombrePase">Pase 1 dia</p>
+                <header class="paseHeader">
+                    <p>Incluye</p>
+                </header>
+                <div class="paseBody">
+                    <ul>
+                        <li>
+                            Acceso a ambos escenario
+                        </li>
+                        <li>
+                           Comida y bebida 
+                        </li>
+                    </ul>
+                </div>
+                <footer class="paseFooter">
+                    <p>$100</p>
+                </footer>
+            </div>
+
+            <div class="premium pase">
+                <p class="nombrePase">Pase 2 dias</p>
+                <header class="paseHeader">
+                    <p>Incluye</p>
+                </header>
+                <div class="paseBody">
+                    <ul>
+                        <li>
+                            Acceso a ambos escenario
+                        </li>
+                        <li>
+                           Comida y bebida 
+                        </li>
+                        <li>
+                            Camisa del Evento
+                        </li>
+                        <li>
+                            Acceso VIP
+                        </li>
+                    </ul>
+                </div>
+                <footer class="paseFooter">
+                    <p>$180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="siteFooter">
+        <p>Rock & EDM Festival. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
